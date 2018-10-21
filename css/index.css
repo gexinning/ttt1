@@ -1,0 +1,180 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	height: 100%;
+}
+div
+{
+	height: 100%;
+}
+#bg1
+{
+	background-image: url(../img/1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+
+}
+#xin
+{
+	position: fixed;
+	animation: my1 3s infinite;
+	
+}
+@keyframes my1{
+	0%{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity:1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+#yes
+{
+	position: fixed;
+	bottom: 175px;
+	right: 20px;
+}
+#no
+{
+	position: fixed;
+	bottom: 67px;
+	right: 20px;
+}
+
+#bg2
+{
+	background-image: url(../img/2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+display: none;
+}
+#che
+{
+	position: fixed;
+	top: 100px;
+	left: 230px;
+}
+#bg3
+{
+	background-image: url(../img/3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: none;	
+}
+#qi
+{
+	position: fixed;
+	bottom: 150px;
+	left: 150px;
+}
+
+#bg4
+{
+	background-image: url(../img/4.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: none;	
+}
+#da
+{
+	position: fixed;
+	
+}
+#h{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+#bg5
+{
+	background-image: url(../img/5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: none;	
+	
+}
+#a1{
+	position: fixed;
+	animation: b1 2s infinite;
+}
+@keyframes b1{
+	0%{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity:1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+#a2{
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	animation: b2 4s infinite;
+}
+@keyframes b2{
+	0%{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity:1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+#a3{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	animation: b3 2s infinite;
+}
+@keyframes b3{
+	0%{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity:1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+#a4{
+	position: fixed;
+	bottom: 20px;
+
+	right: 20px;
+	animation: b4 4s infinite;
+}
+@keyframes b4{
+	0%{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity:1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}

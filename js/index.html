@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>粉红豹</title>
+		<link rel="stylesheet" href="../css/index.css"/>
+		<script type="text/javascript">
+			function keai(){
+				document.getElementById("bg1").style.display="none"
+				document.getElementById("bg2").style.display="block"
+			}
+			
+			function xiaoche(){
+				document.getElementById("bg2").style.display="none"
+				document.getElementById("bg3").style.display="block"
+			}
+			function qidai(){
+				document.getElementById("bg3").style.display="none"
+				document.getElementById("bg5").style.display="block"
+			}
+			function jingya(){
+				document.getElementById("bg1").style.display="none"
+				document.getElementById("bg4").style.display="block"
+			}
+			function heng(){
+				document.getElementById("bg4").style.display="none"
+				document.getElementById("bg1").style.display="block"
+			}
+			
+		</script>
+		
+	</head>
+	<body>
+		<div id="bg1" >
+			<img id="xin" src="../img/无标题.png" height="200px" width="584px" />
+			<img id="yes"  onclick="keai()" src="../img/可爱.jpg" height="100px" width="100px" />
+			<img id="no" onclick="jingya()" src="../img/惊讶.jpg" height="100px" width="100px" />
+			
+		</div>
+		<div id="bg2" >
+			<img src="../img/小车.jpg"  onclick="xiaoche()" height="100px" width="100px" id="che"  />
+			
+			
+		</div>
+		<div id="bg3" >
+			<img id="qi" src="../img/期待.jpg" onclick="qidai()" height="80px" width="80px" />
+			
+		</div>
+		<div id="bg4" >
+			<img id="da" src="../img/打.jpg"  height="300px" width="300px"/>
+			<img src="../img/哼.jpg" id="h" height="50px" onclick="heng()" width="50px" />
+			
+		</div>
+		<div id="bg5" >
+			
+			<img id="a1" src="../img/合照1.jpg" height="260px" width="140px" />
+			<img id="a2" src="../img/合照2.jpg" height="200px" width="380px" />
+			<img id="a3" src="../img/自拍1.jpg" height="300px" width="200px" />
+			<img id="a4" src="../img/自拍2.jpg" height="300px" width="200px" />
+			
+		</div>
+		
+
+
+		
+	</body>
+</html>
